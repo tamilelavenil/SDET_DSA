@@ -12,12 +12,10 @@ public class Base_Class {
 	RestAssured.authentication = RestAssured.preemptive().basic("Feb2023restAPI@gmail.com","ATATT3xFfGF0d39TsozfFQWR0Hvr0UfPqKKtyFJxQvnaGGtSvez8FvO"
 				+ "vhfzSTapOBEUGx0ZAdIbWfM5tjeU8rFw7Rh72pbanmBdYhtysnC3yH89HMn-lXz9PTGKVKtWFV2vp6GyZ_75P27LqLCAbHxqOjYds1SNn5oFZQFDi3ufeUI3cJwdCy20=5543D93F"); 
 	
-	
-
-	
-	
 	}
 
-	
+
+			
+			
 
 }

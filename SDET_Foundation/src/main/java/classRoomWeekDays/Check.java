@@ -9,6 +9,8 @@ public class Check {
 		//arr[0]=1;
 		arr[1]=2;
 		System.out.println(Arrays.toString(arr));
+		
+		//List<String> list = new ArrayList();
 	}
 
 }

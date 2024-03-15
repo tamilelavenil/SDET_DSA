@@ -1,6 +1,6 @@
 package mocking;
-//import org.testng.annotations.Test;
-//
+import org.testng.annotations.Test;
+
 //import com.github.tomakehurst.wiremock.client.WireMock;
 //public class CreateStub {
 //

@@ -1,5 +1,7 @@
 package classRoomWeekEnd1_TwoPointer;
 
+import java.util.Arrays;
+
 public class ReverseAString {
 
 	public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class ReverseAString {
 			charArr[startIndex++] = charArr[endIndex];
 			charArr[endIndex--]=temp;
 		}
+		//System.out.println(Arrays.toString(charArr));
 		System.out.println(new String(charArr));
 //		for (int i = inp.length()-1; i >= 0; i--) {
 //			System.out.print(inp.charAt(i));

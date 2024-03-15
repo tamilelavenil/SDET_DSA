@@ -12,7 +12,7 @@ public class Create_Issue extends Base_Class	{
 	
 	public void Create() {
 	Response response = RestAssured.given().contentType("application/json")
-							
+			
 							.when()
 							.body("{\r\n"
 									+ "    \"fields\": {\r\n"

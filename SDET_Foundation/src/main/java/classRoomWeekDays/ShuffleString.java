@@ -9,7 +9,7 @@ public class ShuffleString {
 	
 	@Test
 
-	public void Test1(){
+	public void Test1() throws InterruptedException{
 	Assert.assertEquals("leetcode",Shuffle("codeleet",new int[]{4,5,6,7,0,2,1,3}));
 	}
 	/*
@@ -23,7 +23,7 @@ public class ShuffleString {
 	4)return the string
 	*/	
 	
-	public String Shuffle(String s, int[] indices) {
+	public String Shuffle(String s, int[] indices) throws InterruptedException {
 		
 	StringBuilder shufflestring = new StringBuilder();
 	String[] out = new String[indices.length];
@@ -32,6 +32,13 @@ public class ShuffleString {
 	
 	//for (String string : out) shufflestring.append(string);
 	//System.out.println(String.valueOf(out));
+	String a ="tamil";
+	System.out.println(a.indexOf(0, 2));
+	System.out.println(a.indexOf("t"));
 	return String.valueOf(out);
 	}
+	
+
+	
+
 }
